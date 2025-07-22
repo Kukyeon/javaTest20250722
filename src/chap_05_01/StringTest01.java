@@ -11,11 +11,11 @@ public class StringTest01 {
 		
 		char[] chArr = {'k','o','r'};
 		System.out.println(chArr);
-		
-		// 방식은 여러가지 
+		//System.out.println(chArr[0]); -> k
+		// 방식은 여러가지 메모리 형성 방식은 똑같다
 		
 		String str1 = "kor";
-		
+		//System.out.println(str1[0]); -> k
 	}
 
 }
